@@ -8,7 +8,7 @@ app = FastAPI()
 #banco provisório
 db: List[User] = [
     User(
-        id=uuid4(), 
+        id=uuid4(), #ajustar, ID deve ser salvo e fixo e não gerado toda vez que atualiza
         first_name="Tainara", 
         middle_name=None,
         last_name="Melara", 
